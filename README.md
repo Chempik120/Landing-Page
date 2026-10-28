@@ -4,7 +4,7 @@ This project is a modern, responsive landing page for the **Nothing** tech brand
 
 ## Live Preview
 
-Experience the live website: [Click here to view the Live Demo](https://Chempik120.github.io/Landing-page/)
+Experience the live website: [Click here to view the Live Demo](https://chempik120.github.io/Landing-Page/)
 
 ## Design Reference
 
