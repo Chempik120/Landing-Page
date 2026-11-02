@@ -536,6 +536,7 @@
   }
 
   .recommended__list {
+    flex-direction: row;
     gap: 56px;
   }
 
@@ -687,7 +688,6 @@
   }
 
   .recommended__list {
-    flex-direction: row;
     justify-content: center;
     gap: 56px;
   }
