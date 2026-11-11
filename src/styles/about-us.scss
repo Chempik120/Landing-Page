@@ -20,7 +20,8 @@
   }
 
   &__banner {
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
     margin-bottom: 48px;
     overflow: hidden;
     margin-top: 96px;
@@ -38,7 +39,8 @@
 
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: contain;
       display: block;
     }
   }
@@ -81,15 +83,5 @@
     @include on-desktop {
       width: 498px;
     }
-  }
-}
-
-.about-us__image {
-  @include on-tablet {
-    height: 400px;
-  }
-
-  @include on-desktop {
-    height: 400px;
   }
 }

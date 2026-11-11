@@ -397,6 +397,7 @@
 
 .about-us__banner {
   width: 100%;
+  height: 460px;
   margin-bottom: 48px;
   overflow: hidden;
   margin-top: 96px;
@@ -404,8 +405,9 @@
 
 .about-us__banner img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  align-self: center;
 }
 
 .about-us__title {
@@ -657,10 +659,6 @@
     height: 184px;
   }
 
-  .about-us__image {
-    height: 400px;
-  }
-
   .about-us {
     display: flex;
     align-items: baseline;
@@ -880,10 +878,6 @@
 
   .category-card__image {
     height: 324px;
-  }
-
-  .about-us__image {
-    height: 400px;
   }
 
   .about-us {
